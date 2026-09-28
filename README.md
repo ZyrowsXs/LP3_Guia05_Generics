@@ -125,24 +125,3 @@ cd ejercicio_4
 javac src/*.java
 java -cp src Main
 ```
-
----
-
-## Pasos para Subir a GitHub
-
-Si deseas subir esta carpeta a un nuevo repositorio en GitHub:
-
-1. **Inicializar y preparar los archivos:**
-
-    ```bash
-    cd LP3_Guia05_Generics
-    git init -b main
-    git add .
-    git commit -m "feat: solución completa de Guía 05 - Generics (4 actividades y 4 ejercicios)"
-    ```
-
-2. **Vincular el repositorio remoto y hacer push:**
-    ```bash
-    git remote add origin https://github.com/<TU_USUARIO>/LP3_Guia05_Generics.git
-    git push -u origin main
-    ```
